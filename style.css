@@ -1,1 +1,88 @@
 /*  Add your styling here */
+body{
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+#navbar{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   background-color: gray;
+   margin: 0;
+   position: fixed;
+   overflow: hidden;
+   top: 0;
+}
+
+#texto-navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 0;
+    line-height: 1vh;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button-enlaces {
+    border-radius: 0;
+    border: none;
+    background-color: rgb(97, 94, 94);
+    color: white;
+    width: 12vw;
+    margin: 10px 10px;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 0 8vw;
+}
+
+#welcome-texto{
+    color: rgb(162, 160, 160);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#welcome-texto > h1 {
+    text-align: right;
+}
+
+#tartas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 8vw;
+}
+
+.tarta-image {
+    margin: 0 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: rgb(192, 191, 191);
+    color: rgb(134, 132, 132);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+#enlaces-footer {
+}
